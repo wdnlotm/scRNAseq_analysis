@@ -30,3 +30,12 @@ nextflow run nf-core/scrnaseq \
 --skip_cellbender 
 # -resume
 ```
+---
+Check 10X version
+```
+zcat Br3942_ant_R1_1.fastq.gz | head -n 2 | tail -n 1 | wc -c
+
+if 29 V3 
+if 27 V2
+if 50(?) V4
+```
