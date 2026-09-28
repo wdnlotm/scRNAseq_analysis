@@ -12,8 +12,8 @@
 #SBATCH --account=iprime
 #SBATCH --array=1-1
 
-export NXF_SINGULARITY_CACHEDIR=/scratch/mbt8hz/apptainer_cache
-export APPTAINER_CACHEDIR=/scratch/mbt8hz/apptainer_cache
+export NXF_SINGULARITY_CACHEDIR=/scratch/myhome/apptainer_cache
+export APPTAINER_CACHEDIR=/scratch/myhome/apptainer_cache
 
 module load nextflow
 module load apptainer
